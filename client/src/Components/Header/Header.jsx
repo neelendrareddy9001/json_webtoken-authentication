@@ -17,6 +17,9 @@ const Header = () => {
             <li>
                 <a href='contact'>Contact</a>
             </li>
+            <li>
+                <a href='login&sinin'>Login | Register</a>
+            </li>
         </ul>
 
     </div>
