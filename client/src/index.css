@@ -7,11 +7,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
+  
 }
 
 
-.navbar {
-  width: 100%;
+
+nav {
+  
+  width: 100vw;
   height: 60px;
   background-color: aqua;
   padding: 1.25rem 3rem;
@@ -32,4 +35,18 @@ ul li {
 }
 ul li a {
   font-size: 16px;
+}
+
+
+
+
+@media  screen and (min-width: 320px) {
+  
+}
+
+
+/* Home */
+.home-container {
+  background-color: #124E66;
+  height: calc(100% - 60%);
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='navbar flex justify-between'>
+    <nav className='navbar flex justify-between'>
         <a href='logo' className='logo'>navbar</a>
         <ul className='flex justify-between'>
             <li>
@@ -18,11 +18,11 @@ const Header = () => {
                 <a href='contact'>Contact</a>
             </li>
             <li>
-                <a href='login&sinin'>Login | Register</a>
+                <a href='login&signin'>Login | Register</a>
             </li>
         </ul>
 
-    </div>
+    </nav>
   )
 }
 
