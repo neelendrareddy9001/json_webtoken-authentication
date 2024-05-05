@@ -20,6 +20,8 @@ nav {
   padding: 1.25rem 3rem;
 }
 
+
+
 .logo {
   text-transform:capitalize;
   font-size: 22px;
@@ -37,6 +39,18 @@ ul li a {
   font-size: 16px;
 }
 
+ul li a:hover, .menu_hover {
+ width: 100%;
+ color: yellow;
+ 
+}
+
+.menu_hover {
+  width: 100%;
+  color: red;
+  line-height: 4px;
+}
+
 
 
 
@@ -49,4 +63,8 @@ ul li a {
 .home-container {
   background-color: #124E66;
   height: calc(100% - 60%);
+  width: 100vw;
+}
+.heading {
+  padding: 20px auto;
 }
