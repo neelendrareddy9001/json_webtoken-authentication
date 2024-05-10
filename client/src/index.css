@@ -62,8 +62,10 @@ ul li a:hover, .menu_hover {
 /* Home */
 .home-container {
   background-color: #124E66;
-  height: calc(100% - 60%);
+  height: 100vh;
   width: 100vw;
+  margin: auto;
+  padding: 1rem 4rem;
 }
 .heading {
   padding: 20px auto;
