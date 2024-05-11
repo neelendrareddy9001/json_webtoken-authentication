@@ -9,12 +9,21 @@
   font-family: 'Times New Roman', Times, serif;
   overflow: hidden;
 }
+section {
+  margin: 0 auto;
+  background-color: antiquewhite;
+  padding: 40px;
+  max-width: 1280px;
+  min-width: 100vw;
+}
 
 .container {
   max-width: 1280px;
   margin: 0 auto;
   height: calc(100vh - 60px);
+  background-color: yellow;
 }
+
 
 nav {
   width: 100vw;
