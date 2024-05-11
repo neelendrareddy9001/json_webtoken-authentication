@@ -18,9 +18,14 @@ const Header = () => {
             <li>
                 <a href='contact'>Contact</a>
             </li>
-            <li>
-                <a href='login&signin'>Login | Register</a>
-            </li>
+            <div className='btns-container'>
+                <li>
+                    <a href='login'>Login</a>
+                </li>
+                <li>
+                    <a href='register'>Register</a>
+                </li>
+            </div>
         </ul>
 
     </nav>
