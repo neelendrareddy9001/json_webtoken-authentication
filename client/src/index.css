@@ -43,9 +43,11 @@ nav {
 
 ul {
   padding-right: 40px;
+  
 }
 ul li {
    padding: 0px 1.5rem;
+   display: none;
 }
 ul li a {
   font-size: 16px;
@@ -63,12 +65,13 @@ ul li a:hover, .menu_hover {
   line-height: 4px;
 }
 
+/* .menu-icon {
+  display: none;
+} */
 
 
 
-@media  screen and (min-width: 320px) {
-  
-}
+
 
 
 /* Home */
@@ -82,3 +85,6 @@ ul li a:hover, .menu_hover {
 .heading {
   padding: 20px auto;
 }
+
+
+

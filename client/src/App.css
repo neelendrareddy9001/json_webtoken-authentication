@@ -1,3 +1,18 @@
 .App {
     overflow: hidden;
 }
+
+@media screen and (min-width: 792px) {
+    .menu ul li{
+        display: hidden;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .menu ul li a {
+        display: none;
+    }
+    .menu-icon {
+        display: none;
+    }
+}
