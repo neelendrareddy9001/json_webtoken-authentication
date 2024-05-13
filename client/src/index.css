@@ -9,7 +9,7 @@
   font-family: 'Times New Roman', Times, serif;
   overflow: hidden;
 }
-section {
+.section-container {
   margin: 0 auto;
   background-color: antiquewhite;
   padding: 40px;
@@ -24,7 +24,11 @@ section {
   background-color: yellow;
 }
 
-
+.logo {
+  font-size: 43px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
 nav {
   width: 100vw;
   height: 60px;
@@ -71,8 +75,17 @@ ul li::before {
 
 
 
-
-
+/* Home */
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home h4 {
+  font-size: 22px;
+  font-weight: bolder;
+  display: block;
+}
 
 
 /* Home */
