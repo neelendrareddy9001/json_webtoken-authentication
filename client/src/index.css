@@ -53,10 +53,14 @@ ul li a {
   font-size: 16px;
 }
 
-ul li a:hover, .menu_hover {
- width: 100%;
- color: yellow;
- 
+ul li:hover, 
+ul li::before {
+  content: '';
+  margin-bottom: 8px;
+  max-width: 120px;
+  color: green;
+  line-height: 4px;
+  transition: all 0.4s ease-in;
 }
 
 .menu_hover {
@@ -65,9 +69,6 @@ ul li a:hover, .menu_hover {
   line-height: 4px;
 }
 
-/* .menu-icon {
-  display: none;
-} */
 
 
 
