@@ -8,11 +8,14 @@ import Blog from './pages/Blog/Blog';
 import Contact from './pages/Contact/Contact'
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register'
+import ParticlesBackground from './Components/ParticlesBackground';
 
 function App() {
   return (
     <div className="App">
+      
       <Header />
+      <ParticlesBackground />
       <Routes>
         <Route path='*' exact element={<Home />} />
         <Route path='/about' element={<About />} />
