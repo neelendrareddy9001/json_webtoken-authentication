@@ -2,6 +2,10 @@
     overflow: hidden;
 }
 
+section {
+    margin: 40px 35px;
+}
+
 @media screen and (max-width: 768px) {
     nav .menu-icon {
         display: block;
