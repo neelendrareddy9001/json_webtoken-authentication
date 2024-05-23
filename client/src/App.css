@@ -2,8 +2,8 @@
     overflow: hidden;
 }
 
-section {
-    margin: 40px 35px;
+nav {
+    background-color: skyblue;
 }
 
 @media screen and (max-width: 768px) {

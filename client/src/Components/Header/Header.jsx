@@ -33,6 +33,7 @@ const Header = () => {
                 </li>
             </div>
         </ul>
+        
         <div className='menu-icon'>
             <FiMenu size={24} onClick={handleMenu}/>
             <IoClose size={24} />
