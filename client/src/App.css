@@ -4,15 +4,50 @@
 
 nav {
     background-color: skyblue;
+    padding: 0px 20px ;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: capitalize;
+    transition: all 0.3s  ease-out;
+}
+.logo:hover {
+    letter-spacing: 2px;
+
+}
+nav ul li {
+    display: none;
+}
+nav .menu-icon {
+    display: flex;
 }
 
-@media screen and (max-width: 768px) {
+
+/* Home */
+.home-container {
+    gap: 40px;
+}
+.home-container .img-container img {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        padding: 20px 40px;
+    }
+    nav ul li {
+        display: none;
+    }
     nav .menu-icon {
         display: block;
     }
 }
 
 @media screen and (min-width: 960px) {
+    nav {
+        padding: 15px 60px;
+    }
     nav .menu-icon {
         display: none;
     }

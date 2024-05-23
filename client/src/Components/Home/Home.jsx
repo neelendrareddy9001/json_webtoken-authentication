@@ -1,10 +1,10 @@
 import React from "react";
-import Img from '../../images/1.jpeg.jpg';
+import ImgPex from '../../images/pexel.jpg';
 
 const Home = () => {
   return (
     <section className="section-container">
-      <div className="home-container flex justify-between w-full max-w-[1240px]">
+      <div className="home-container container-flex">
         <div className="home">
           <h4 className="heading">This is about me</h4>
           <p>Here you can see the visual representation of this project</p>
@@ -20,7 +20,7 @@ const Home = () => {
           </div>
         </div>
         <div className="img-container">
-          
+          <img src={ImgPex} alt="" />
         </div>
       </div>
     </section>
