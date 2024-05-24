@@ -25,7 +25,7 @@ nav ul li a {
     padding: 0px 24px;
 }
 .nav .menu-icon {
-    display: inline-flex;
+    
 }
 .btns {
     display: flex;
@@ -55,7 +55,7 @@ nav ul li a {
 
 
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     nav {
         padding: 20px 40px;
     }
@@ -64,6 +64,12 @@ nav ul li a {
     }
     nav .menu-icon {
         display: block;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    nav .menu-icon {
+        display: none;
     }
 }
 
