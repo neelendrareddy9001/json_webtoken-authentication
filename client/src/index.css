@@ -17,6 +17,17 @@ h1 {
   font-size: 34px;
   font-weight: 800;
 }
+h2 {
+  text-align: center;
+  
+}
+
+
+
+h2::first-letter {
+  color: paleturquoise;
+  font-size: 38px; 
+}
 h2,h3,h4 {
   font-size: 28px;
   font-weight: 700;

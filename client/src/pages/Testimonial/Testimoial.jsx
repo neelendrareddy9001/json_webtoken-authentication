@@ -2,7 +2,9 @@ import React from 'react'
 
 const Testimoial = () => {
   return (
-    <div>Testimoial</div>
+    <section className='section-container'>
+      <h2>Testimonial</h2>
+    </section>
   )
 }
 
