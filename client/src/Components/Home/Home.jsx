@@ -6,17 +6,14 @@ const Home = () => {
     <section className="section-container">
       <div className="home-container container-flex">
         <div className="home">
-          <h4 className="heading">This is about me</h4>
-          <p>Here you can see the visual representation of this project</p>
+          <h1 className="heading">This is about me</h1>
+          <h4>Here you can see the visual representation of this project</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-            magnam aut molestiae distinctio eos ea, neque perferendis corrupti
-            beatae, doloremque fugit! Quibusdam, atque ipsam! Adipisci facilis
-            autem architecto officiis rerum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
           <div className="btns">
-            <button>Read More</button>
-            <button>Check Now</button>
+            <button className="btn">Read More</button>
+            <button className="btn">Check Now</button>
           </div>
         </div>
         <div className="img-container">

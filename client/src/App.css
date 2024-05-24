@@ -18,10 +18,20 @@ nav {
 }
 nav ul li {
     display: none;
-}
-nav .menu-icon {
     display: flex;
+    align-items: center;
 }
+nav ul li a {
+    padding: 0px 24px;
+}
+.nav .menu-icon {
+    display: inline-flex;
+}
+.btns {
+    display: flex;
+    gap: 20px;
+}
+
 
 
 /* Home */
@@ -31,6 +41,16 @@ nav .menu-icon {
 .home-container .img-container img {
     width: 100%;
 }
+.home {
+    margin: 20px 45px;
+    max-width: 50%;
+}
+
+
+
+
+
+
 
 @media screen and (min-width: 768px) {
     nav {
@@ -56,11 +76,6 @@ nav .menu-icon {
     }
 }
 
-/* @media screen and (min-width: 768px) {
-    nav ul li{
-        display: hidden;
-    }
-} */
 
 @media screen and (max-width: 800px) {
     .menu ul li a {
