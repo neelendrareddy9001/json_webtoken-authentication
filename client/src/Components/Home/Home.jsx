@@ -1,5 +1,9 @@
 import React from "react";
 import ImgPex from '../../images/pexel.jpg';
+import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGooglePlusG } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -14,6 +18,12 @@ const Home = () => {
           <div className="btns">
             <button className="btn">Read More</button>
             <button className="btn">Check Now</button>
+          </div>
+          <div className="social-icons">
+            <FaFacebookF className="icon"/>
+            <FaLinkedin className="icon"/>
+            <FaGooglePlusG className="icon"/>
+            <FaGithub className="icon"/>
           </div>
         </div>
         <div className="img-container">

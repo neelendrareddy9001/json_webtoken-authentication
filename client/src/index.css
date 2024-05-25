@@ -10,6 +10,10 @@
   overflow: hidden;
 }
 
+body {
+  background-color: #eee;
+}
+
 a {
   text-decoration: none;
 }
@@ -28,9 +32,13 @@ h2::first-letter {
   color: paleturquoise;
   font-size: 38px; 
 }
-h2,h3,h4 {
+h2,h3 {
   font-size: 28px;
   font-weight: 700;
+}
+h4 {
+  font-size: 28px;
+  font-weight: 500;
 }
 
 
@@ -68,5 +76,5 @@ ul li {
 } 
 
 .section-container {
-  margin: 20px 40px;
+  margin: 140px 40px;
 }

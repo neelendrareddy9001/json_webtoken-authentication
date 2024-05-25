@@ -44,10 +44,28 @@ nav ul li a {
 .home {
     margin: 20px 45px;
     max-width: 50%;
+    position: relative;
 }
 .home p {
     margin: 12px auto;
 }
+.home h4 {
+    max-width: 320px;
+    text-align: center;
+}
+.social-icons {
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    max-width: 280px;
+    gap: 12px;
+}
+.social-icons .icon {
+    font-size: 22px;
+    border-radius: 50%;
+}
+
 
 
 
