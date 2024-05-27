@@ -68,9 +68,33 @@ nav ul li a {
 
 
 
+@media screen and (max-width: 320px)  {
+    .section-container {
+        margin: 45px 5px;
+    }
+    .home-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 
+@media screen and (max-width: 375px) {
+    .section-container {
+        margin: 40px 10px;
+    }
+    .home-container {
+        flex-direction: column;
+        display: flex;
+    }
+}
 
+@media screen and(min-width: 540px){
+    .home-container {
+        flex-direction: column;
+        display: flex;
+    }
+}
 
 
 @media screen and (max-width: 768px) {
@@ -82,6 +106,27 @@ nav ul li a {
     }
     nav .menu-icon {
         display: block;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .section-container {
+        margin: 90px 20px;
+    }
+    .btns {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .home {
+        margin: 0;
+        padding: 0 8px;
     }
 }
 
