@@ -1,10 +1,8 @@
-.App {
-    overflow: hidden;
-}
 
 nav {
     background-color: skyblue;
     padding: 0px 20px ;
+    position: relative;
 }
 .logo {
     font-size: 24px;
@@ -24,12 +22,21 @@ nav ul li {
 nav ul li a {
     padding: 0px 24px;
 }
-.nav .menu-icon {
-    
-}
+
+
 .btns {
     display: flex;
     gap: 20px;
+}
+
+.mobile-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: palegreen;
+    width: 300px;
+    
 }
 
 

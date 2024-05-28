@@ -13,9 +13,8 @@ import Testimoial from './pages/Testimonial/Testimoial';
 function App() {
   return (
     <div className="App">
-      
+      <>
       <Header />
-      <ParticlesBackground />
       <Routes>
         <Route path='*' exact element={<Home />} />
         <Route path='/about' element={<About />} />
@@ -23,6 +22,7 @@ function App() {
         <Route path='/testimonial' element={<Testimoial />} />
         <Route path='/contact' element={<Contact />} /> 
       </Routes>
+      </>
     </div>
   );
 }
