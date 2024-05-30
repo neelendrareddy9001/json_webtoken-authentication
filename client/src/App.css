@@ -3,6 +3,10 @@ nav {
     background-color: skyblue;
     padding: 0px 20px ;
     position: relative;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 .logo {
     font-size: 24px;
@@ -14,11 +18,9 @@ nav {
     letter-spacing: 2px;
 
 }
-nav ul li {
+/* nav ul li {
     display: none;
-    display: flex;
-    align-items: center;
-}
+} */
 nav ul li a {
     padding: 0px 24px;
 }
@@ -75,92 +77,3 @@ nav ul li a {
 
 
 
-@media screen and (max-width: 320px)  {
-    .section-container {
-        margin: 45px 5px;
-    }
-    .home-container {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-
-@media screen and (max-width: 375px) {
-    .section-container {
-        margin: 40px 10px;
-    }
-    .home-container {
-        flex-direction: column;
-        display: flex;
-    }
-}
-
-@media screen and(min-width: 540px){
-    .home-container {
-        flex-direction: column;
-        display: flex;
-    }
-}
-
-
-@media screen and (max-width: 768px) {
-    nav {
-        padding: 20px 40px;
-    }
-    nav ul li {
-        display: none;
-    }
-    nav .menu-icon {
-        display: block;
-    }
-    h1 {
-        font-size: 26px;
-    }
-    h4 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 16px;
-    }
-    .section-container {
-        margin: 90px 20px;
-    }
-    .btns {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-    .home {
-        margin: 0;
-        padding: 0 8px;
-    }
-}
-
-@media screen and (min-width: 800px) {
-    nav .menu-icon {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 960px) {
-    nav {
-        padding: 15px 60px;
-    }
-    nav .menu-icon {
-        display: none;
-    }
-    nav ul li {
-        display: flex;
-    }
-}
-
-
-@media screen and (max-width: 800px) {
-    .menu ul li a {
-        display: none;
-    }
-    .menu-icon {
-        display: none;
-    }
-}

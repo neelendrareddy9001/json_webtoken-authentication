@@ -12,8 +12,8 @@ const Header = () => {
    
   return (
     <>
-    <nav className='navbar flex justify-between'>
-        <a href='logo' className='logo'>navbar</a>
+    <nav className='navbar flex justify-around'>
+        <a href='logo' className='logo mr-80'>navbar</a>
         <ul className='flex justify-between menu'>
             <li>
                 <a href='home'>Home</a>
