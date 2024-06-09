@@ -57,16 +57,20 @@ p {
   font-size: 22px;
   font-weight: 500;
 }
-
+.btns {
+  display: flex;
+  flex-direction: row;
+  padding: 22px;
+}
 .btn {
-  padding: 8px 20px;
+  padding: 12px 20px;
   color: whitesmoke;
   background-color: palegreen;
   border-radius: 50px;
   font-size: 22px;
   font-weight: 700;
   letter-spacing: 2px;
-  
+  max-width: 280px;
   transition: all 0.4s ease-out;
 }
 .btn:hover {
@@ -162,9 +166,20 @@ nav ul li {
       flex-direction: column;
       justify-content: flex-start;
   }
-  .home {
-      margin: 0;
-      padding: 0 8px;
+  
+  .home-container {
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .img-container {
+    margin-top: 3rem;
+  }
+  .btns {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
   }
 }
 

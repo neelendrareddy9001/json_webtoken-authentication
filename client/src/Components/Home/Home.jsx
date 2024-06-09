@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <section className="section-container">
       <div className="home-container container-flex">
-        <div className="home">
+        <div className="home-left">
           <h1 className="heading">This is about the nature</h1>
           <h4>Here you can see the visual representation of this project</h4>
           <p>
