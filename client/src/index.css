@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  overflow: hidden;
+}
+
+@layer components {
+  .container-body {
+    @apply flex justify-between py-4
+  }
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -100,8 +111,12 @@ nav ul li {
 /* Section Styles */
 
 .section-container {
-  min-height: 100vh;
+  height: 100vh;
   background-color: palevioletred;
+}
+.section-container .home-container {
+  display: flex;
+  justify-content: space-between;
 }
 .section-container h2 {
   padding: 20px 40px;
