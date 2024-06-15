@@ -3,13 +3,13 @@ nav {
     background-color: skyblue;
     padding: 0px 20px ;
     position: relative;
-    line-height: 65px;
+    line-height: 75px;
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
 }
 .logo {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 800;
     text-transform: capitalize;
     transition: all 0.3s  ease-out;

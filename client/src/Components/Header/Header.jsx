@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {FiMenu} from 'react-icons/fi'
-import { IoClose } from "react-icons/io5";
+
 
 
 const Header = () => {
@@ -12,9 +12,9 @@ const Header = () => {
    
   return (
     <>
-    <nav className='navbar flex justify-around'>
-        <a href='logo' className='logo mr-80'>navbar</a>
-        <ul className='flex justify-between menu'>
+    <nav className='navbar flex justify-between w-full bg-slate-600 text-white px-24 min-h-[65px] items-center'>
+        <a href='logo' className='logo text-4xl font-semibold capitalize cursor-pointer hover:scale-50 transition-all duration-500'>navbar</a>
+        <ul className='flex gap-12 text-lg font-thin sm:hidden '>
             <li>
                 <a href='home'>Home</a>
             </li>
@@ -32,7 +32,7 @@ const Header = () => {
             </li>
         </ul>
         
-        <div className='menu-icon'>
+        <div className='menu-icon hidden'>
             <FiMenu size={32} onClick={handleMenu}/>
         </div>
         

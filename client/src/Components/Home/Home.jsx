@@ -5,21 +5,22 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGooglePlusG } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
+
 const Home = () => {
   return (
-    <section className="section-container">
-      <div className='container-body p-3'>
-        <div className="home-left">
-          <h1 className="heading">This is about the nature</h1>
+    <section className="section-container px-24">
+      <div className='container-body flex justify-between items-center pt-28 md:flex-col'>
+        <div className="home-left relative">
+          <h1  className="heading first-letter:text-2xl font-semibold text-lg py-4">This is about the nature</h1>
           <h4>Here you can see the visual representation of this project</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
-          <div className="btns">
+          <div className="btns flex gap-6 p-4">
             <button className='btn'>Read More</button>
             <button className="btn">Check Now</button>
           </div>
-          <div className="social-icons">
+          <div className="social-icons flex py-14 absolute left-36">
             <FaFacebookF className="icon"/>
             <FaLinkedin className="icon"/>
             <FaGooglePlusG className="icon"/>
@@ -27,7 +28,7 @@ const Home = () => {
           </div>
         </div>
         <div className="img-container">
-          <img src={ImgPex} alt="" />
+          <img src={ImgPex} alt="" className='rounded-xl hover:scale-50 duration-500 transition-all hover:grayscale saturate-100' />
         </div>
       </div>
     </section>
