@@ -12,9 +12,9 @@ const Header = () => {
    
   return (
     <>
-    <nav className='navbar flex justify-between w-full bg-slate-600 text-white px-24 min-h-[65px] items-center'>
+    <nav className='navbar shadow-md flex justify-between w-full bg-slate-600 text-white px-24 min-h-[65px] items-center'>
         <a href='logo' className='logo text-4xl font-semibold capitalize cursor-pointer hover:scale-50 transition-all duration-500'>navbar</a>
-        <ul className='flex gap-12 text-lg font-thin sm:hidden '>
+        <ul className='flex gap-12 text-lg font-thin '>
             <li>
                 <a href='home'>Home</a>
             </li>

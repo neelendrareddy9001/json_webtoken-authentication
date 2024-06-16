@@ -13,4 +13,7 @@
   .btn {
     @apply p-4 px-6 bg-teal-200 rounded-full font-bold text-lg hover:bg-transparent
   }
+  .icon {
+    @apply w-[40px] h-[40px] rounded-full bg-green-500 text-white text-2xl font-bold hover:scale-110 duration-200 transition-all
+  }
 }
