@@ -8,8 +8,8 @@ import { FaGithub } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <section className='container px-24 w-full'>
-      <div className='grid grid-cols-1 gap-5 sm:grid-cols-2 place-items-center'>
+    <section className='container w-full md:px-8'>
+      <div className='grid grid-cols-1 gap-14 sm:grid-cols-2 place-items-center'>
         <div>
           <h1  className="heading first-letter:text-2xl font-semibold text-lg py-4">This is about the nature</h1>
           <h4>Here you can see the visual representation of this project</h4>
