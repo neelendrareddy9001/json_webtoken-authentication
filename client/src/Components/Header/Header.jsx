@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import {FiMenu} from 'react-icons/fi'
+import { FiMenu } from "react-icons/fi";
+import { IoCloseOutline } from "react-icons/io5";
 
 
 
@@ -12,9 +13,9 @@ const Header = () => {
    
   return (
     <>
-    <nav className='navbar shadow-md flex justify-between w-full bg-slate-600 text-white px-24 min-h-[65px] items-center'>
+    <nav className='navbar shadow-md py-4 flex justify-between w-full bg-slate-600 text-white px-24 min-h-[65px] items-center'>
         <a href='logo' className='logo text-4xl font-semibold capitalize cursor-pointer hover:scale-50 transition-all duration-500'>navbar</a>
-        <ul className='flex gap-12 text-lg font-thin '>
+        <ul className=' gap-12 text-lg font-thin hidden md:inline-flex '>
             <li>
                 <a href='home'>Home</a>
             </li>
@@ -31,9 +32,9 @@ const Header = () => {
                 <a href='contact'>Contact</a>
             </li>
         </ul>
-        
-        <div className='menu-icon hidden'>
-            <FiMenu size={32} onClick={handleMenu}/>
+        <div className='md:hidden'>
+            <FiMenu size={40} />
+            <IoCloseOutline size={40} />
         </div>
         
         {
