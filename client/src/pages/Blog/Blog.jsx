@@ -17,20 +17,20 @@ const Blog = () => {
         Blog
       </motion.h2>
       <div>
-        <h1 className="heading first-letter:text-2xl font-semibold text-lg py-4">
+        <h1 className="heading first-letter:text-2xl font-semibold text-lg py-4 text-center">
           This is about the nature
         </h1>
-        <div className="grid grid-cols-1 gap-14 sm:grid-cols-2 place-items-center">
+        <div className="grid grid-cols-1 gap-14 sm:grid-cols-2 place-items-center my-9">
           {/* image section */}
-          <div>
-            
+          <div className='min-w-[45%] bg-sky-500'>
+            <h2>Catelog</h2>
           </div>
           {/* content section */}
-          <div className=" grid grid-cols-1 sm:grid-cols-1">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
+          <div className='grid grid-cols-2 gap-14'>
+            <div className='bg-red-500 item'>1</div>
+            <div className='bg-blue-400 item'>2</div>
+            <div className='bg-green-500 item'>3</div>
+            <div className='bg-yellow-400 item'>4</div>
           </div>
         </div>
       </div>

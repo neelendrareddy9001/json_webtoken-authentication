@@ -31,7 +31,9 @@ const Header = () => {
             <li>
                 <a href='contact'>Contact</a>
             </li>
+            <div className='line'></div>
         </ul>
+        
         <div className='md:hidden'>
             <FiMenu size={40} />
             <IoCloseOutline size={40} />

@@ -42,3 +42,19 @@
   border: transparent;
   transform: scale3d(1.2)
 }
+
+.line {
+  position: absolute;
+}
+
+ul li a:hover{
+  border-bottom: 2px solid red;
+}
+
+
+/* blog styles */
+@layer components {
+  .item {
+    @apply min-w-32 min-h-32 rounded-xl grid place-items-center
+  }
+}
