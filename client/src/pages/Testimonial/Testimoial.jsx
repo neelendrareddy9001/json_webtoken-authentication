@@ -16,6 +16,14 @@ const Testimoial = () => {
       >
         Testimonial
       </motion.h2>
+      <div className='testimonial-container flex justify-center gap-32 my-10 flex-wrap md:'>
+        <div className='item'>1</div>
+        <div className='item'>2</div>
+        <div className='item'>3</div>
+        <div className='item'>4</div>
+        <div className='item'>3</div>
+        <div className='item'>4</div>
+      </div>
     </section>
   )
 }

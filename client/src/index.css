@@ -55,6 +55,6 @@ ul li a:hover{
 /* blog styles */
 @layer components {
   .item {
-    @apply min-w-32 min-h-32 rounded-xl grid place-items-center
+    @apply min-w-32 min-h-32 rounded-xl grid place-items-center bg-black
   }
 }
