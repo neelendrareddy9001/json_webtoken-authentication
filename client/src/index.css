@@ -20,7 +20,7 @@
 
 @layer components {
   .section-container {
-    @apply px-14
+    @apply px-24 mx-auto
   }
 }
 /* @layer components {
@@ -55,6 +55,12 @@ ul li a:hover{
 /* blog styles */
 @layer components {
   .item {
-    @apply min-w-32 min-h-32 rounded-xl grid place-items-center bg-black
+    @apply min-w-32 p-20 min-h-32 rounded-xl grid place-items-center border-4 hover:border-cyan-600 text-black
+  }
+  .item-icons {
+    @apply flex gap-4 my-8
+  }
+  .item-img {
+    @apply w-[80px] h-[80px] bg-black  rounded-full
   }
 }

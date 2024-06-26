@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Blog = () => {
   return (
-    <section className="container w-full md:px-8">
+    <section className="section-container w-full mx-auto">
       <motion.h2
         initial={{ opacity: 0, translateX: '-200px' }}
         animate={{ opacity: 1, translateX: '0px' }}
@@ -22,15 +22,15 @@ const Blog = () => {
         </h1>
         <div className="grid grid-cols-1 gap-14 sm:grid-cols-2 place-items-center my-9">
           {/* image section */}
-          <div className='min-w-[45%] bg-sky-500'>
+          <div className='min-w-[45%] bg-sky-500 w-full h-full'>
             <h2>Catelog</h2>
           </div>
           {/* content section */}
           <div className='grid grid-cols-2 gap-14'>
-            <div className='bg-red-500 item'>1</div>
-            <div className='bg-blue-400 item'>2</div>
-            <div className='bg-green-500 item'>3</div>
-            <div className='bg-yellow-400 item'>4</div>
+            <div className='bg-red-500 item'>React</div>
+            <div className='bg-blue-400 item'>Javascript</div>
+            <div className='bg-green-500 item'>Bootstrap</div>
+            <div className='bg-yellow-400 item'>Html & Css</div>
           </div>
         </div>
       </div>

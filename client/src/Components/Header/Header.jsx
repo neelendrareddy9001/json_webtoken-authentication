@@ -12,7 +12,7 @@ const Header = () => {
     }
    
   return (
-    <>
+    <section>
     <nav className='navbar shadow-md py-4 flex justify-between w-full bg-slate-600 text-white px-24 min-h-[65px] items-center'>
         <a href='logo' className='logo text-4xl font-semibold capitalize cursor-pointer hover:scale-50 transition-all duration-500'>navbar</a>
         <ul className=' gap-12 text-lg font-thin hidden md:inline-flex '>
@@ -67,7 +67,7 @@ const Header = () => {
         
     </nav>
     <div className='menu_hover'></div>
-    </>
+    </section>
     
   )
 }
