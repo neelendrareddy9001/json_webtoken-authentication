@@ -22,6 +22,7 @@
   .section-container {
     @apply px-24 mx-auto
   }
+  
 }
 /* @layer components {
   .section-backround {
@@ -62,5 +63,12 @@ ul li a:hover{
   }
   .item-img {
     @apply w-[80px] h-[80px] bg-black  rounded-full
+  }
+}
+
+/* contact */
+@layer components {
+  .input_box {
+    @apply pt-12 px-28
   }
 }

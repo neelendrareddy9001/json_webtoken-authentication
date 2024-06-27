@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import Contact_Bg from '../../images/contact-bg.jpg'
 
 const Blog = () => {
   return (
@@ -16,7 +17,25 @@ const Blog = () => {
       >
         Contact
       </motion.h2>
-      <div className='section-background'></div>
+      <div className='section-background flex justify-around gap-12'>
+        <div className=''></div>
+        <div className='form p-8'>
+          <form action=''>
+            <div className='input_container'>
+              <label htmlFor='name'>Name</label>
+              <input type='text' placeholder='Enter your name' id='name' value='' className='input_box' />
+            </div>
+            <div className='input_container'>
+              <label htmlFor='email'>Email</label>
+              <input type='email' placeholder='Enter your email' id='eamil' value='' className='input_box' />
+            </div>
+            <div className='input_container'>
+              <label htmlFor='message'>Message</label>
+              <textarea></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
   )
 }

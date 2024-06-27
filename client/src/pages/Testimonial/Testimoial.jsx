@@ -60,6 +60,20 @@ const Testimoial = () => {
             <FaTwitter />
           </div>
         </div>
+        <div className="item px-20 pt-4">
+          <div className="item-img my-8">
+            <img src="" alt="" />
+          </div>
+          <h1>Kim John</h1>
+          <p>React Developer</p>
+          <span></span>
+          <div className="item-icons">
+            <FaFacebookF />
+            <FaGithub />
+            <FaLinkedin />
+            <FaTwitter />
+          </div>
+        </div>
       </div>
     </section>
   );
