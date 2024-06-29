@@ -69,6 +69,6 @@ ul li a:hover{
 /* contact */
 @layer components {
   .input_box {
-    @apply pt-12 px-28
+    @apply pt-4 px-28
   }
 }

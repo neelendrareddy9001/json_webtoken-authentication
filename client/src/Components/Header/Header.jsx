@@ -36,7 +36,7 @@ const Header = () => {
         
         <div className='md:hidden'>
             <FiMenu size={40} />
-            <IoCloseOutline size={40} />
+            <IoCloseOutline size={40}  />
         </div>
         
         {
