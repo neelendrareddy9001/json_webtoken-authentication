@@ -20,7 +20,7 @@ const Blog = () => {
         <h1 className="heading first-letter:text-2xl font-semibold text-lg py-4 text-center">
           This is about the nature
         </h1>
-        <div className="grid grid-cols-1 gap-14 sm:grid-cols-2 place-items-center my-9">
+        <div className="grid grid-cols-1 gap-14 sm:grid-cols-2 place-items-center my-9 md:flex-col">
           {/* image section */}
           <div className='min-w-[45%] bg-sky-500 w-full h-full'>
             <h2>Catelog</h2>
