@@ -17,8 +17,8 @@ const Blog = () => {
       >
         Contact
       </motion.h2>
-      <div className='section-background flex justify-around gap-12 grid-md-cols-2'>
-        <div className='bg-red-400'>
+      <div className='section-background flex justify-around gap-12 grid-md-cols-2 py-14 '>
+        <div className='bg-red-400 w-1/2 rounded-lg text-center'>
           <h1>Login</h1>
         </div>
         <div className='form p-8'>
