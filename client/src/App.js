@@ -15,13 +15,18 @@ function App() {
     <div className="App">
       <>
       <Header />
-      <Routes>
+      <Home />
+      <About />
+      <Blog />
+      <Testimoial />
+      <Contact />
+      {/* <Routes>
         <Route path='*' exact element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/testimonial' element={<Testimoial />} />
         <Route path='/contact' element={<Contact />} /> 
-      </Routes>
+      </Routes> */}
       </>
     </div>
   );
