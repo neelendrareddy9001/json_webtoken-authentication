@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Blog = () => {
   return (
-    <section className="section-container w-full mx-auto">
+    <section className="section-container w-full mx-auto my-20">
       <motion.h2
         initial={{ opacity: 0, translateX: '-200px' }}
         animate={{ opacity: 1, translateX: '0px' }}
@@ -20,9 +20,9 @@ const Blog = () => {
         <h1 className="heading first-letter:text-2xl font-semibold text-lg py-4 text-center">
           This is about the nature
         </h1>
-        <div className="grid grid-cols-1 gap-14 sm:grid-cols-2 place-items-center my-9 md:flex-col">
+        <div className="my-9 flex gap-12 flex-nowrap md:flex-col">
           {/* image section */}
-          <div className='min-w-[45%] bg-sky-500 w-full h-full'>
+          <div className=' bg-sky-500 w-1/2'>
             <h2>Catelog</h2>
           </div>
           {/* content section */}

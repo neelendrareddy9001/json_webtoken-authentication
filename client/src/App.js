@@ -9,6 +9,7 @@ import Contact from './pages/Contact/Contact'
 
 import ParticlesBackground from './Components/ParticlesBackground';
 import Testimoial from './pages/Testimonial/Testimoial';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Blog />
       <Testimoial />
       <Contact />
+      <Footer />
       {/* <Routes>
         <Route path='*' exact element={<Home />} />
         <Route path='/about' element={<About />} />

@@ -18,7 +18,7 @@ const About = () => {
         About Us
       </motion.h2>
       <div className="section-background">
-        <div className="container min-h-[550px] grid md:grid-cols-2 place-items-center mx-auto">
+        <div className="container min-h-[550px]">
           {/* text content */}
           <div className="flex flex-wrap min-w-[350px] sm:text-center">
             <div className='px-8'>

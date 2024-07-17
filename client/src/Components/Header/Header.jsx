@@ -16,7 +16,7 @@ const Header = () => {
     <section>
     <nav className='navbar shadow-md py-4 flex justify-between w-full bg-slate-600 text-white px-24 min-h-[65px] items-center'>
         <a href='logo' className='logo text-4xl font-semibold capitalize cursor-pointer overflow-hidden'>navbar</a>
-        <ul className=' gap-12 text-lg font-thin hidden md:hidden '>
+        <ul className=' gap-12 text-lg font-thin hidden sm:hidden'>
             <li>
                 <a href='home'>Home</a>
             </li>
