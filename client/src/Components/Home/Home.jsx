@@ -8,8 +8,8 @@ import { FaGithub } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <section className='section-container'>
-      <div className='grid grid-cols-1 gap-14 sm:grid-cols-2 place-items-center'>
+    <section className='section-container min-h-[80vh]'>
+      <div className='flex gap-12 items-center justify-between md:flex-col md:py-8'>
         <div>
           <h1  className="heading first-letter:text-2xl font-semibold text-lg py-4">This is about the nature</h1>
           <h4>Here you can see the visual representation of this project</h4>
@@ -20,8 +20,8 @@ const Home = () => {
             <button className='btn'>Read More</button>
             <button className="btn">Check Now</button>
           </div>
-          <div className="social-icons flex justify-around gap-5 py-14 absolute left-[18%] ">
-            <FaFacebookF className="icon"/>
+          <div className="social-icons flex items-center justify-center gap-5 py-14">
+            <FaFacebookF className="icon" size={20}/>
             <FaLinkedin className="icon"/>
             <FaGooglePlusG className="icon"/>
             <FaGithub className="icon"/>

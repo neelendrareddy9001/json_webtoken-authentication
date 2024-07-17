@@ -3,14 +3,11 @@ module.exports = {
   content: [ "./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
     screens: {
-      'sm': '576px',
-      // => @media (min-width: 576px) { ... }
-
-      'md': '960px',
-      // => @media (min-width: 960px) { ... }
-
-      'lg': '1440px',
-      // => @media (min-width: 1440px) { ... }
+      '2xl': {'max': '1535px'},
+      'xl' : {'max': '1279px'},
+      'lg' : {'max': '1024px'},
+      'md' : {'max': '767px'},
+      'sm' : {'max': '639px'}
     },
     
     extend: {
