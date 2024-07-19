@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
+import {useDispatch, useSelector} from 'react-redux';
 import { FaFacebookF, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { fetchTodo } from "../../redux/reducers/todoSlice";
 
 const Testimoial = () => {
+  const dispatch = useDispatch();
+  const data = useSelector(state => state.todo)
+  useEffect(() => {
+    dispatch(fetchTodo())
+  },[])
   return (
     <section className="section-container">
       <motion.h2
@@ -18,6 +25,9 @@ const Testimoial = () => {
         Testimonial
       </motion.h2>
       <div className="testimonial-container text-white text-wrap flex justify-center gap-32 py-32 flex-wrap md:">
+        {data.map((todo) => {
+          return <p key={todo.id}>{todo.title}</p>
+        })}
         <div className="item px-20 pt-4">
           <div className="item-img my-8">
             <img src="https://www.google.pl/url?sa=i&url=https%3A%2F%2Fwww.aarp.org%2Fpolitics-society%2Fhistory%2Finfo-2023%2Fbill-gates-next-generation.html&psig=AOvVaw2bP2tS5u_4NCdNSoYhX71n&ust=1719480172224000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIDT-vf4-IYDFQAAAAAdAAAAABAK" alt="" />
