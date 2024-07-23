@@ -20,7 +20,7 @@ const About = () => {
       <div className="section-background">
         <div className="container min-h-[550px]">
           {/* text content */}
-          <div className="flex flex-wrap min-w-[350px] sm:text-center">
+          <div className="flex justify-between min-w-[350px] sm:text-center">
             <div className='px-8'>
               <h1 className="text-2xl font-serif first-letter:text-3xl first-letter:text-green-400">
                 Whom you know very well about{" "}

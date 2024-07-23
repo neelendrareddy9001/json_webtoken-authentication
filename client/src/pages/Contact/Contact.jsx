@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import Contact_Bg from '../../images/contact-bg.jpg'
+import { Fa500Px } from 'react-icons/fa'
+
 
 const Blog = () => {
   return (
@@ -22,16 +23,16 @@ const Blog = () => {
           <h1>Login</h1>
         </div>
         <div className='form p-8'>
-          <h2>Sneat</h2>
-          <p>Please sign-in to your account and start asking questions</p>
+          <h2 className='text-center text-xl mb-3'>Sneat</h2>
+          <p>sign-in make it better</p>
           <form action=''>
             <div className='input_container'>
               <label htmlFor='name'>Name</label>
-              <input type='text' placeholder='Enter your name' id='name' value='' className='input_box' />
+              <input type='text' className='border-2' placeholder='Enter your name' id='name' value='' />
             </div>
             <div className='input_container'>
               <label htmlFor='email'>Email</label>
-              <input type='email' placeholder='Enter your email' id='eamil' value='' className='input_box' />
+              <input type='email' className='border-2' placeholder='Enter your email' id='eamil' value=''  />
             </div>
             <div className='input_container'>
               <label htmlFor='message'>Message</label>
@@ -40,6 +41,7 @@ const Blog = () => {
             <button className='px-24 py-2 my-4 font-semibold tracking-widest rounded-xl shadow-md hover:bg-transparent bg-gradient-to-tr from-sky-400 to-green-400'>Sign In</button>
             <p>New on our platform <span><a href='/#'>Create an account</a></span></p>
             <p>Or</p>
+            
           </form>
         </div>
       </div>
