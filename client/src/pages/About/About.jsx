@@ -18,9 +18,9 @@ const About = () => {
         About Us
       </motion.h2>
       <div className="section-background">
-        <div className="container min-h-[550px]">
+        <div className="container min-h-[550px] my-16">
           {/* text content */}
-          <div className="flex justify-between min-w-[350px] sm:text-center">
+          <div className="flex min-w-[350px] sm:text-center">
             <div className='px-8'>
               <h1 className="text-2xl font-serif first-letter:text-3xl first-letter:text-green-400">
                 Whom you know very well about{" "}
@@ -42,7 +42,7 @@ const About = () => {
           </div>
           {/* image section */}
           <div>
-            <img src={AboutI} alt="about" className="about-img" />
+            <img src={AboutI} alt="about" className="about-img max-w-[40%]" />
           </div>
         </div>
       </div>
