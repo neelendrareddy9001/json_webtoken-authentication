@@ -14,9 +14,9 @@ const Header = () => {
    
   return (
     <section>
-    <nav className='navbar shadow-md py-4 flex justify-between w-full bg-slate-600 text-white px-24 min-h-[65px] items-center'>
+    <nav className='navbar shadow-md py-4 flex justify-between w-full bg-slate-600 text-white px-8 min-h-[65px] items-center'>
         <a href='logo' className='logo text-4xl font-semibold capitalize cursor-pointer overflow-hidden'>navbar</a>
-        <ul className=' gap-12 text-lg font-thin hidden sm:hidden'>
+        <ul className=' gap-12 text-lg font-thin flex mdd:hidden ml-32'>
             <li>
                 <a href='home'>Home</a>
             </li>
@@ -35,9 +35,9 @@ const Header = () => {
             <div className='line'></div>
         </ul>
         
-        <div className='md:hidden'>
-            <FiMenu size={40} />
-            <IoCloseOutline size={40}  style={{display: "none"}}/>
+        <div className=''>
+            <FiMenu size={40} className=' md:block hidden' />
+            <IoCloseOutline size={25} style={{display: 'none'}} />
         </div>
         
         {
