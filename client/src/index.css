@@ -20,7 +20,7 @@
 
 @layer components {
   .section-container {
-    @apply px-24 mx-auto
+    @apply  mx-auto px-4
   }
   
 }

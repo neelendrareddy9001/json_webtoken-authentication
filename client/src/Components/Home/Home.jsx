@@ -10,13 +10,13 @@ const Home = () => {
   return (
     <section className='section-container min-h-[70vh]'>
       <div className='flex gap-12 items-center justify-between md:flex-col md:py-8'>
-        <div>
+        <div className='sm:text-center'>
           <h1  className="heading first-letter:text-2xl font-semibold text-lg py-4">This is about the nature</h1>
           <h4>Here you can see the visual representation of this project</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
-          <div className="btns flex gap-6 p-4">
+          <div className="btns flex gap-6 p-4 sm:flex-col sm:gap-3">
             <button className='btn'>Read More</button>
             <button className="btn">Check Now</button>
           </div>

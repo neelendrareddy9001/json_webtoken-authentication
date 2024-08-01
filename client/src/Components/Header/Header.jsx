@@ -16,7 +16,7 @@ const Header = () => {
     <section>
     <nav className='navbar shadow-md py-4 flex justify-between w-full bg-slate-600 text-white px-8 min-h-[65px] items-center'>
         <a href='logo' className='logo text-4xl font-semibold capitalize cursor-pointer overflow-hidden'>navbar</a>
-        <ul className=' gap-12 text-lg font-thin flex mdd:hidden ml-32'>
+        <ul className=' gap-12 text-lg font-thin flex mdd:hidden ml-[40%]'>
             <li>
                 <a href='home'>Home</a>
             </li>
@@ -36,7 +36,7 @@ const Header = () => {
         </ul>
         
         <div className=''>
-            <FiMenu size={40} className=' md:block hidden' />
+            <FiMenu size={40} className=' hidden mdd:block' />
             <IoCloseOutline size={25} style={{display: 'none'}} />
         </div>
         
