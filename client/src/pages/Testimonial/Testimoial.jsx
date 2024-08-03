@@ -21,7 +21,21 @@ const Testimoial = () => {
         Testimonial
       </motion.h2>
       <div className="testimonial-container text-white text-wrap flex justify-center gap-32 py-32 flex-wrap md:">
-        <div className="item px-20 pt-4">
+        <div className="item px-20 pt-4 md:w-full md:mx-8">
+          <div className="item-img my-8">
+            <img src="https://www.google.pl/url?sa=i&url=https%3A%2F%2Fwww.aarp.org%2Fpolitics-society%2Fhistory%2Finfo-2023%2Fbill-gates-next-generation.html&psig=AOvVaw2bP2tS5u_4NCdNSoYhX71n&ust=1719480172224000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIDT-vf4-IYDFQAAAAAdAAAAABAK" alt="" />
+          </div>
+          <h1>John Mathew</h1>
+          <p>Software Developer</p>
+          <span></span>
+          <div className="item-icons">
+            <FaFacebookF />
+            <FaGithub />
+            <FaLinkedin />
+            <FaTwitter />
+          </div>
+        </div>
+        <div className="item px-20 pt-4 md:w-full md:mx-8">
           <div className="item-img my-8">
             <img src="https://www.google.pl/url?sa=i&url=https%3A%2F%2Fwww.aarp.org%2Fpolitics-society%2Fhistory%2Finfo-2023%2Fbill-gates-next-generation.html&psig=AOvVaw2bP2tS5u_4NCdNSoYhX71n&ust=1719480172224000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIDT-vf4-IYDFQAAAAAdAAAAABAK" alt="" />
           </div>
