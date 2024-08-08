@@ -20,8 +20,8 @@ const About = () => {
       <div className="section-background">
         <div className="container min-h-[550px] my-16">
           {/* text content */}
-          <div className="flex min-w-[350px] sm:text-center">
-            <div className='px-8'>
+          <div className="sm:text-center flex justify-between ">
+            <div className="px-8 w-1/2">
               <h1 className="text-2xl font-serif first-letter:text-3xl first-letter:text-green-400">
                 Whom you know very well about{" "}
                 <span className="text-gray-900">belive</span>in him
@@ -34,15 +34,15 @@ const About = () => {
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown
               </p>
+              <div className='m-4'>
+                <button className="btn">Get Started</button>
+                <button className="btn">View More</button>
+              </div>
             </div>
-            <div className="my-4 flex gap-4">
-              <button className="btn">Get Started</button>
-              <button className="btn">View More</button>
+            {/* image section */}
+            <div className='w-full'>
+              <img src={AboutI} alt="about" className="about-img max-w-[40%]" />
             </div>
-          </div>
-          {/* image section */}
-          <div>
-            <img src={AboutI} alt="about" className="about-img max-w-[40%]" />
           </div>
         </div>
       </div>
