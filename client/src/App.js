@@ -15,20 +15,15 @@ function App() {
   return (
     <div className="App">
       <>
-      <Header />
-      <Home />
-      <About />
-      <Blog />
-      <Testimoial />
-      <Contact />
-      <Footer />
-      {/* <Routes>
+      
+      <Header /> 
+      <Routes>
         <Route path='*' exact element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/testimonial' element={<Testimoial />} />
         <Route path='/contact' element={<Contact />} /> 
-      </Routes> */}
+      </Routes>
       </>
     </div>
   );
