@@ -4,7 +4,7 @@ import AboutI from "../../images/pexels.jpeg";
 
 const About = () => {
   return (
-    <section className="section-container bg-slate-400">
+    <section className="section-container bg-slate-400 px-20">
       <motion.h2
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -21,7 +21,7 @@ const About = () => {
         <div className="container min-h-[550px] my-16">
           {/* text content */}
           <div className="sm:text-center flex justify-between ">
-            <div className="px-8 w-1/2">
+            <div className="px-8 w-full">
               <h1 className="text-2xl font-serif first-letter:text-3xl first-letter:text-green-400">
                 Whom you know very well about{" "}
                 <span className="text-gray-900">belive</span>in him

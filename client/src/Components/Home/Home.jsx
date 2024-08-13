@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <section className='section-container home min-h-[70vh]'>
+    <section className='section-container mx-20 home min-h-[70vh]'>
       <div className='flex gap-12 items-center justify-between md:flex-col md:py-8'>
         <div className='sm:text-center'>
           <h1  className="heading first-letter:text-2xl font-semibold text-lg py-4">This is about the nature</h1>
