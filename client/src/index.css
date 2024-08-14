@@ -72,5 +72,10 @@ ul li a:hover{
     @apply pt-4 px-28
   }
 }
+@layer components {
+  .icon {
+    @apply hover:bg-[#3b5998]
+  }
+}
 
 

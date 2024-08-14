@@ -17,11 +17,11 @@ const Home = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
           <div className="btns flex gap-6 p-4 sm:flex-col sm:gap-3">
-            <button className='btn'>Read More</button>
-            <button className="btn">Check Now</button>
+            <button className='btn shadow-md'>Read More</button>
+            <button className="btn shadow-md">Check Now</button>
           </div>
           <div className="social-icons flex items-center justify-center gap-5 py-14">
-            <FaFacebookF className="icon" size={20}/>
+            <FaFacebookF className='icon' size={20}/>
             <FaLinkedin className="icon"/>
             <FaGooglePlusG className="icon"/>
             <FaGithub className="icon"/>
