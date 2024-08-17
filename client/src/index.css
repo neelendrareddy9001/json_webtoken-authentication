@@ -77,5 +77,20 @@ ul li a:hover{
     @apply hover:bg-[#3b5998]
   }
 }
+@layer components {
+  input {
+    @apply block p-2 rounded-xl w-[100%]
+  }
+}
 
+@layer components {
+  label {
+    @apply m-4 absolute
+  }
+}
+@layer components {
+  .input_container {
+    @apply m-3
+  }
+}
 
