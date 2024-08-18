@@ -68,7 +68,7 @@ ul li a:hover{
 
 /* contact */
 @layer components {
-  .input_box {
+  .input_container {
     @apply pt-4 px-28
   }
 }
@@ -79,9 +79,13 @@ ul li a:hover{
 }
 @layer components {
   input {
-    @apply block p-2 rounded-xl w-[100%]
+    @apply w-96 h-14 px-6 text-xl border-2 rounded-lg border-white border-opacity-50 outline-none focus:border-blue-500 focus:text-white transition duration-200
+  }
+  input[type="text"]:focus ~ .input-text {
+    @apply text-blue-500 bg-black
   }
 }
+
 
 @layer components {
   label {

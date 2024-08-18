@@ -24,10 +24,10 @@ const Blog = () => {
         </div>
         <div className='form p-8'>
           <h2 className='text-center text-xl mb-3'>Sneat</h2>
-          <p>sign-in make it better</p>
+          <p className='m-2'>sign-in make it better</p>
           <form action=''>
             <div className='input_container'>
-              <label htmlFor='name'>Name</label>
+              <label htmlFor='name' >Name</label>
               <input type='text' className='border-2' placeholder='Enter your name' id='name' value='' />
             </div>
             <div className='input_container'>
