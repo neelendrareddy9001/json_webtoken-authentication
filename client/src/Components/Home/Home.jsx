@@ -8,15 +8,15 @@ import { FaGithub } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <section className='section-container mx-20 home min-h-[70vh]'>
-      <div className='flex gap-12 items-center justify-between md:flex-col md:py-8'>
+    <section className='section-container mx-auto home min-h-[70vh]'>
+      <div className='flex gap-12 items-center justify-between'>
         <div className='sm:text-center'>
           <h1  className="heading first-letter:text-2xl font-semibold text-lg py-4">This is about the nature</h1>
           <h4>Here you can see the visual representation of this project</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
-          <div className="btns flex gap-6 p-4 sm:flex-col sm:gap-3">
+          <div className="btns flex py-12 gap-6 p-4 sm:flex-col sm:gap-3">
             <button className='btn shadow-md'>Read More</button>
             <button className="btn shadow-md">Check Now</button>
           </div>
