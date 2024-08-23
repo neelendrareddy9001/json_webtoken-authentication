@@ -1,52 +1,82 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { Fa500Px } from 'react-icons/fa'
-
-
-const Blog = () => {
+const Contact = () => {
   return (
-    <section className='section-container'>
-      <motion.h2
-        initial={{ opacity: 0, translateY: '-100px' }}
-        animate={{ opacity: 1, translateY: '0px' }}
-        transition={{
-          duration: 0.8,
-          delay: 0.5,
-          ease: [0, 0.71, 0.2, 1.01],
-        }}
-        className=" text-center my-4 font-mono tracking-wide font-semibold text-2xl"
-      >
-        Contact
-      </motion.h2>
-      <div className='section-background flex justify-around gap-12 grid-md-cols-2 py-14 '>
-        <div className='bg-red-400 w-1/2 rounded-lg text-center'>
-          <h1>Login</h1>
-        </div>
-        <div className='form p-8'>
-          <h2 className='text-center text-xl mb-3'>Sneat</h2>
-          <p className='m-2'>sign-in make it better</p>
-          <form action=''>
-            <div className='input_container'>
-              <label htmlFor='name' >Name</label>
-              <input type='text' className='border-2' placeholder='Enter your name' id='name' value='' />
-            </div>
-            <div className='input_container'>
-              <label htmlFor='email'>Email</label>
-              <input type='email' className='border-2' placeholder='Enter your email' id='eamil' value=''  />
-            </div>
-            <div className='input_container'>
-              <label htmlFor='message'>Message</label>
-              <textarea></textarea>
-            </div>
-            <button className='px-24 py-2 my-4 font-semibold tracking-widest rounded-xl shadow-md hover:bg-transparent bg-gradient-to-tr from-sky-400 to-green-400'>Sign In</button>
-            <p>New on our platform <span><a href='/#'>Create an account</a></span></p>
-            <p>Or</p>
-            
-          </form>
+    <section className="px-8 flex min-h-full flex-1 bg-white flex-col justify-center py-12 lg:px-8">
+      <div className=" grid grid-cols-1 md:grid-cols-2">
+       
+        <div>
+          <div className="sm:mx-auto sm:w-full sm:max-w-sm">
+            <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
+              Sign in to your account
+            </h2>
+          </div>
+          <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+            <form action="" method="POST" className="space-y-6">
+              <div>
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-medium leading-6 text-gray-900"
+                >
+                  Email Address
+                </label>
+                <div className="mt-2">
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    required
+                    autoComplete
+                    className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading6"
+                  />
+                </div>
+                <div>
+                  <div className="flex items-center justify-between my-4">
+                    <label
+                      htmlFor="password"
+                      className="block text-sm font-medium leading-6 text-gray-900"
+                    >
+                      Password
+                    </label>
+                  </div>
+                  <div className="mt-2">
+                    <input
+                      id="password"
+                      name="password"
+                      type="password"
+                      required
+                      autoComplete="current-password"
+                      className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    />
+                    <div className="text-sm my-4 flex justify-between">
+                      <a
+                        href="/"
+                        className="font-semibold text-indigo-600 hover:text-indigo-500"
+                      >
+                        Forgot password?
+                      </a>
+                      <a
+                        href="/"
+                        className="font-semibold text-indigo-600 hover:text-indigo-500"
+                      >
+                        Create a new Account
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <button
+                  type="submit"
+                  className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                >
+                  Sign in
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Blog
+export default Contact;
