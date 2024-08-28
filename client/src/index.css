@@ -33,6 +33,19 @@ body {
 }
 
 
+/* section */
+@layer components {
+  .section-container {
+    @apply py-14
+  }
+}
+@layer components {
+  .section-grid {
+    @apply px-16 grid md:grid-cols-2 place-items-center
+  }
+}
+
+
 
 .about-img {
   border-top-left-radius: 25%;

@@ -17,32 +17,30 @@ const About = () => {
       >
         About Us
       </motion.h2>
-      <div className="section-background">
-        <div className="container min-h-[550px] my-16">
-          {/* text content */}
-          <div className="sm:text-center flex justify-between ">
-            <div className="px-8 w-full">
-              <h1 className="text-2xl font-serif first-letter:text-3xl first-letter:text-green-400">
-                Whom you know very well about{" "}
-                <span className="text-gray-900">belive</span>in him
-              </h1>
-              <h4 className="text-xl font-normal">
-                Enjoy peacefull life forever
-              </h4>
-              <p className="font-thin">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown
-              </p>
-              <div className='m-4'>
-                <button className="btn">Get Started</button>
-                <button className="btn">View More</button>
-              </div>
+      <div className="section-background min-h-[550px]">
+        {/* text content */}
+        <div className='section-grid'>
+          <div className="px-8 w-full">
+            <h1 className="text-2xl font-serif first-letter:text-3xl first-letter:text-green-400">
+              Whom you know very well about{" "}
+              <span className="text-gray-900">belive</span>in him
+            </h1>
+            <h4 className="text-xl font-normal">
+              Enjoy peacefull life forever
+            </h4>
+            <p className="font-thin">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown
+            </p>
+            <div className="m-4">
+              <button className="btn">Get Started</button>
+              <button className="btn">View More</button>
             </div>
-            {/* image section */}
-            <div className='w-full'>
-              <img src={AboutI} alt="about" className="about-img max-w-[40%]" />
-            </div>
+          </div>
+          {/* image section */}
+          <div className="w-full">
+            <img src={AboutI} alt="about" className="about-img max-w-[40%]" />
           </div>
         </div>
       </div>

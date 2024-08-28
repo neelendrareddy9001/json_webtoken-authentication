@@ -9,8 +9,9 @@ import {motion} from 'framer-motion'
 
 const Home = () => {
   return (
-    <section className='section-container mx-auto home min-h-[70vh] py-24'>
-      <div className='flex gap-12 items-center justify-between mdd:flex-col'>
+    <section className='section-container mx-auto home min-h-[70vh]'>
+      {/* //flex gap-12 items-center justify-between mdd:flex-col */}
+      <div className=' section-grid'>
         <div className='sm:text-center'>
           <motion.h1 
             initial={{ opacity: 0, translateX: '-200px' }}
