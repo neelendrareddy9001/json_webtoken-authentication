@@ -41,9 +41,18 @@ body {
 }
 @layer components {
   .section-grid {
-    @apply px-16 grid md:grid-cols-2 place-items-center
+    @apply grid md:grid-cols-3 gap-3
+  }
+  .item-img {
+    @apply w-28 h-28 rounded-full bg-black
+  }
+  .section-card {
+    @apply flex items-center justify-center border-2
   }
 }
+
+
+
 
 
 
@@ -74,17 +83,7 @@ ul li a:hover{
 }
 
 /* blog styles */
-@layer components {
-  .item {
-    @apply min-w-32 p-20 min-h-32 rounded-xl grid place-items-center border-4 hover:border-cyan-600 text-black
-  }
-  .item-icons {
-    @apply flex gap-4 my-8
-  }
-  .item-img {
-    @apply w-[80px] h-[80px] bg-black  rounded-full
-  }
-}
+
 
 /* contact */
 @layer components {
