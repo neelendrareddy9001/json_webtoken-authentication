@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import AboutI from "../../images/pexels.jpeg";
 
+import { Link } from "react-router-dom";
+
 const About = () => {
   return (
     <section className="section-container bg-slate-400 px-20">
@@ -33,9 +35,9 @@ const About = () => {
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown
             </p>
-            <div className="m-4">
-              <button className="btn">Get Started</button>
-              <button className="btn">View More</button>
+            <div className="m-4 btns">
+             <button className="btn"><Link to='/'>Get Started</Link></button>
+             <button className="btn">View More</button>
             </div>
           </div>
           {/* image section */}

@@ -7,17 +7,20 @@ import { FaGithub } from "react-icons/fa";
 import {motion} from 'framer-motion'
 
 
+import {Link} from 'react-router-dom';
+
+
 const Home = () => {
   return (
     <section className='section-container mx-auto home min-h-[70vh]'>
       {/* //flex gap-12 items-center justify-between mdd:flex-col */}
       <div className=' section-grid'>
-        <div className='sm:text-center'>
+        <div className=' text-center flex justify-center flex-col'>
           <motion.h1 
             initial={{ opacity: 0, translateX: '-200px' }}
             animate={{ opacity: 1, translateX: '0px' }}
             transition={{
-              duration: 0.4,
+              duration: 0.6,
               delay: 0.5,
               ease: [0, 0.71, 0.2, 1.01],
             }}
@@ -27,15 +30,15 @@ const Home = () => {
             animate={{ opacity: 1, translateX: '0px' }}
             transition={{
               duration: 0.8,
-              delay: 0.7,
+              delay: 0.9,
               ease: [0, 0.71, 0.2, 1.01],
             }}
           >Here you can see the visual representation of this project</motion.h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
-          <div className="btns flex py-12 gap-6 p-4 sm:flex-col sm:gap-3">
-            <button className='btn shadow-md'>Read More</button>
+          <div className="btns">
+            <button className='btn shadow-md'><Link to='/'>Read More</Link></button>
             <button className="btn shadow-md">Check Now</button>
           </div>
           <div className="social-icons flex items-center justify-center gap-5 py-14">
@@ -46,7 +49,7 @@ const Home = () => {
           </div>
         </div>
          <div className='py-20'>
-          <img src={ImgPex} alt="" className='w-[520px] h-[350px]'  />
+          <img src={ImgPex} alt="" className='w-[520px] h-[350px] rounded-xl hover:border-2 shadow-xl'  />
         </div>
       </div>
     </section>

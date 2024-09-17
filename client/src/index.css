@@ -36,13 +36,16 @@ body {
 /* section */
 @layer components {
   .section-container {
-    @apply py-14
+    @apply px-28
   }
 }
+
+/* grid */
 @layer components {
   .section-grid {
-    @apply grid md:grid-cols-3 gap-3
+    @apply grid md:grid-cols-2 gap-8
   }
+  
   .item-img {
     @apply w-28 h-28 rounded-full bg-black
   }
@@ -107,3 +110,14 @@ ul li a:hover{
 
 
 
+@layer components {
+  .btns {
+    @apply px-12 my-3 flex gap-8 justify-center items-center 
+  }
+  .btn {
+    @apply bg-gradient-to-r from-sky-400 font-semibold to-pink-500 text-white rounded-lg p-2
+  }
+  .icon {
+    @apply w-5 h-5 rounded-full bg-sky-500 
+  }
+}

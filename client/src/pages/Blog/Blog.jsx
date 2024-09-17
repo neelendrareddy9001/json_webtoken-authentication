@@ -17,13 +17,13 @@ const Blog = () => {
         Blog
       </motion.h2>
       <div className="">
-        <div className='section-grid'>
+        <div className='flex justify-around'>
           {/* image section */}
           <div className=' bg-sky-500 w-1/2'>
             <h2>Catelog</h2>
           </div>
           {/* content section */}
-          <div className='grid grid-cols-2 gap-14'>
+          <div className='grid grid-cols-2'>
             <div className='bg-red-500 item'>React</div>
             <div className='bg-blue-400 item'>Javascript</div>
             <div className='bg-green-500 item'>Bootstrap</div>
